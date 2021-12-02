@@ -1,13 +1,28 @@
+/*universal selector below*/
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*all a href links selector below*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*all "paragraphs" (p) selector below*/
+p {
+    font-size: 16px;
+}
+
+/*Body section Start of top of page*/
 body {
     background-color: #d9dcd6;
 }
 
+/*Header Start*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +39,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,24 +47,17 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header nav ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+/*Header End*/
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/*Hero Start*/
 .hero {
     height: 800px;
     width: 100%;
@@ -59,23 +67,27 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
+/*Left Side Articles Section*/
+.articles {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+/*open class selector used to float images left*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/*open class selector used to float images left*/
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/*Right Side Aside Section*/
+.aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
